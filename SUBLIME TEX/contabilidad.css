@@ -1,0 +1,109 @@
+body{
+	background-color: lightblue
+}
+div#titulo{
+	width: 100%;
+	margin-top; 50px;
+	height: 100px;
+}
+p#header{
+	text-align: center;
+	font-size: 1.3em;
+	color: black;
+	font-family: Arial Narrow;
+	background-color: transparent;
+}
+.zoom{
+	transition: width 1.2s, height 1.2s. transform 1.2s;
+	-moz-transition: width 1.2s, height 1.2s, -moz-transform 1.2s;
+	-webkit-transition: width 1.2s, height 1.2s, -webkit-transform 1.2s;
+	-o-transition: width 1.2s, height 1.2s, -o-transform 1.2s;
+
+}
+.zoom:hover{
+	transform: scale(1.2)
+	-moz-transform: scale(1.2);
+	-webkit-transform: scale(1.2);
+	-o-transform:. scale(1.2);
+
+}
+#dgti{
+	float: left;
+	width: 130px;
+	height: 140px;
+	margin-right: -155px;
+	margin-top: -53px;
+	margin-left: 35px;
+	background-color: transparent;
+}
+#sep{
+	float: right;
+	width: 160px;
+	height: 70px;
+	margin-top: -55px;
+	margin-right: 50px;
+	background-color: transparent;
+
+}
+#ladoizquierdo{
+	background-color: lightblue;
+	width: 220px;
+	height: 680px;
+	float: left;
+	margin-left: -18px;
+	padding-left: 30px;
+	color: white;
+	text-align: ;
+	padding-top: 30px;
+	line-height: 22px;
+}
+#menu{
+	background-color: white;
+	width: 1324px;
+}
+#menu ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+#menu ul li{
+	display: inline-block;
+	width: 212px;
+	background-color: white;
+}
+#menu ul li a{
+	color: navy;
+	display: block;
+	padding: 25px;
+	text-decoration: none;
+	text-align: center;
+}
+#menu ul li a:hover{
+	background-color: blue;
+}
+#contabilidad{
+	background-color: #4398E7;
+	height: 300px;
+	padding-left: 250px;
+	padding-top: 20px;
+	font-family: Arial;
+	font-size: 12pt;
+	text-align: left;
+}
+#pie{
+	background-color: #86B9E7;
+	height: 50px;
+}
+img{
+	width: 200px;
+	height: 170px;
+	float: right;
+	margin-left: 20px;
+	margin-right: 10px;
+	margin-bottom: 20px;
+	margin-top: 3px;
+}
+#video{
+	background-color: #0077E4;
+	height: 200px;
+}

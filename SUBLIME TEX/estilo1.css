@@ -1,0 +1,175 @@
+body{
+	background-color: #E8E8E8
+
+}
+
+{
+	margin: 0px;
+	padding: 0px;
+	background-color: white;	 
+	font-family: helveltica Neve;
+}
+div#titulo{
+	width: 100%;
+	margin-top: 100px;
+}
+p#header{
+	text-align: center;
+	font-size: 2.5em;
+	color:blue;
+}
+p#subheader{
+	text-align: center;
+	margin-top: 20px;
+	font-size: 1.3em;
+	color:navy;
+}
+header{
+	background-color: red;
+	margin:100px auto;
+	margin-bottom: 20px;
+	width: 1200px;
+	height: 230px;
+}
+div.contenedor{
+	width: 200px;
+	height: 230px;
+	float: left; 
+    -webkit-transition:height. 4s;
+}
+div#uno{
+	background-color: #006EC1;
+
+}
+div#dos{
+	background-color: #009EE5;
+}
+div#tres{
+	background-color: #52BCEC;
+}
+div#cuatro{
+	background-color: #89D1F3;
+}
+div#cinco{
+	background-color: #B5E5F9;
+}
+div#seis{
+	background-color: #B1D4ED;
+}
+
+img.icon{
+	display: block;
+	margin: 50px;
+	background-color: rgba(255,255,255,.15);
+	padding: 20px;
+	width: 40px;
+	-webkit-border-radius:50%;
+	-webkit-box-shadow: 0px 0px 0px 30px rgba(255,255,255,0);
+	-webkit-transition: box-shadow .4s;
+}
+p.texto{
+	font-size: 1-2em;
+	color: white;
+	text-align: center;
+	padding-top: 10px
+	opacity:.6;
+	background-color: transparent;
+	-webkit-transition:padding-top .4s;
+
+	}
+div.contenedor:hover{
+	height: 250px;
+}
+
+div.contenedor:hover p.texto{
+	padding-top: 30px;
+	opacity: 1;
+
+}
+div.contenedor:hover img.icon{
+	-webkit-box-shadow:0px 0px 0px 0px rgba(255,255,255,.6);
+
+}
+
+.zoom{
+	transition: width 1s, hover 1s, transform 1s;
+	-moz-transition: width 1s, height 1s, -moz-transform 1s;
+	-webkit-transition: width 1s, height 1s, -webkit-transform 1s;
+	-o-transform: width 1s, height 1s, -o-transform 1s;
+}
+.zoom:hover{
+	transform: scale(2);
+	-moz-transform: scale(2);
+	-webkit-transform: scale(2);
+	-o-transform: scale(2);
+}
+h2{
+	text-align: center;
+	color: blue;
+}
+div.subcontenedor{
+	height: 230px;
+	width: 600px;
+	float: left;
+}
+#mision{
+	text-align: center;
+	background-color: pink;
+}
+#header2{
+	background-color: pink;
+	width: 1200px;
+    height: 230px;
+    margin: 100px auto;
+}
+#vision{
+	text-align: center;
+	background-color: salmon;
+}
+p.info{
+	background-color: transparent;
+	text-align: justify;
+	padding: 32px;
+}
+#pie{
+	background-color: lightblue;
+	text-align: center;
+	width: 800px;
+	height: 70px;
+	padding: 10px;
+	margin-left: 300px;
+	margin-bottom: 50px;
+}
+strong{
+	background-color: transparent;
+}
+#dgti{
+	float: left;
+	width: 130px;
+	height: 140px;
+	margin-right: -155px;
+	margin-top: -53px;
+	margin-left: 35px;
+	background-color: transparent;
+}
+#sep{
+	float: right;
+	width: 160px;
+	height: 70px;
+	margin-top: -55px;
+	margin-right: 50px;
+	background-color: transparent;
+}	
+#mostrar{
+	color: #4800FF;
+}
+#ocultar{
+	color: #4800FF;
+}
+#abajo{
+	background-color: #B5E5F9;
+}
+#imagenabajo{
+	display: block;
+	margin: auto;
+}
